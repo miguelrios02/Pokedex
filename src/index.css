@@ -1,0 +1,33 @@
+/*variables */
+:root{
+  --color-red:#d93f3f;
+  --color-btn:#D93F3F
+
+  
+}
+
+/* Reset */
+*{
+  box-sizing: border-box;
+
+}
+html{
+  margin: 0;
+}
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+
+}
+img{
+  width: 100%;
+  display:block;
+}
+a{
+  font-family: inherit;
+  text-decoration:none;
+}
+
+input{
+  outline: none;
+}

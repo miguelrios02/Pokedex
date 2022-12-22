@@ -1,0 +1,53 @@
+.header{
+    
+    height: 120px;
+    width: 100%;
+    background-color: var(--color-red);
+    position: relative;
+}
+.header__img{
+
+    max-width: 350px;
+    margin-left: 10px;
+}
+.header__black{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.header__circle{
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50%;
+    bottom: 0px;
+    right: 10px;
+    transform: translateX(-50%);
+
+}
+.header__circle-int{
+    position: absolute;
+    width: 35px;
+    aspect-ratio: 1;
+    background-color: rgb(82, 81, 81);
+    border: 5px solid black;
+    border-radius: 50px;
+    bottom: 7.75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__logout{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 300ms color ease;
+}
+.header__logout:hover{
+    color: red;
+}
