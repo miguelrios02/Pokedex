@@ -56,7 +56,7 @@ const handleLastPage =()=>{
 }
   useEffect(() => {
     const URL = `https://pokeapi.co/api/v2/${
-      pokemonType ? `type/${pokemonType}/` : "pokemon/?limit=200"
+      pokemonType ? `type/${pokemonType}/` : "pokemon/?limit=1154"
     }`;
     axios
       .get(URL)
